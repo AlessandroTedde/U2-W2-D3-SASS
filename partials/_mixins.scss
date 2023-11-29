@@ -1,0 +1,5 @@
+@mixin title-big($mainColor: $text-color, $fontSize: $def-h-size) {
+  display: inline-block;
+  color: $mainColor;
+  font-size: $fontSize;
+}

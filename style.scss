@@ -1,0 +1,15 @@
+@import "./partials/reset.css";
+@import "./partials/colors.css";
+@import "./partials/fonts.css";
+@import "./partials/spacings.css";
+@import "./partials/buttons.css";
+@import "./partials/mixins.css";
+@import "./partials/animations.css";
+
+$colorKeys: $primary-color, $warning-color, $success-color;
+
+@each $elem in $colorKeys {
+  .button-#{$elem} {
+    background-color: $elem;
+  }
+}
